@@ -1,0 +1,178 @@
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\Online-Store.dll.config
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\Online-Store.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\Online-Store.pdb
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\csc.exe
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\csc.exe.config
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\csc.rsp
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\csi.exe
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\csi.exe.config
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\csi.rsp
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.AppContext.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Console.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.IO.Compression.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.IO.Pipes.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Security.Claims.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.ValueTuple.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\vbc.exe
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\vbc.exe.config
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\vbc.rsp
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\VBCSCompiler.exe
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\obj\Debug\Online-Store.csprojAssemblyReference.cache
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\obj\Debug\Online-Store.csproj.CoreCompileInputs.cache
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\obj\Debug\Online-Store.csproj.CopyComplete
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\obj\Debug\Online-Store.dll
+C:\Users\PINAR\Documents\Visual Studio 2017\Projects\Online-Store\Online-Store\obj\Debug\Online-Store.pdb
+D:\OnlineStore\Online-Store\bin\Online-Store.dll.config
+D:\OnlineStore\Online-Store\bin\Online-Store.dll
+D:\OnlineStore\Online-Store\bin\Online-Store.pdb
+D:\OnlineStore\Online-Store\bin\roslyn\csc.exe
+D:\OnlineStore\Online-Store\bin\roslyn\csc.exe.config
+D:\OnlineStore\Online-Store\bin\roslyn\csc.rsp
+D:\OnlineStore\Online-Store\bin\roslyn\csi.exe
+D:\OnlineStore\Online-Store\bin\roslyn\csi.exe.config
+D:\OnlineStore\Online-Store\bin\roslyn\csi.rsp
+D:\OnlineStore\Online-Store\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\OnlineStore\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\OnlineStore\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\OnlineStore\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\OnlineStore\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\OnlineStore\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\OnlineStore\Online-Store\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\OnlineStore\Online-Store\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\OnlineStore\Online-Store\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\OnlineStore\Online-Store\bin\roslyn\Microsoft.Managed.Core.targets
+D:\OnlineStore\Online-Store\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\OnlineStore\Online-Store\bin\roslyn\System.AppContext.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Collections.Immutable.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Console.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.IO.Compression.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.IO.FileSystem.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.IO.Pipes.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Reflection.Metadata.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Security.AccessControl.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Security.Claims.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Security.Principal.Windows.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.ValueTuple.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Xml.XmlDocument.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Xml.XPath.dll
+D:\OnlineStore\Online-Store\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\OnlineStore\Online-Store\bin\roslyn\vbc.exe
+D:\OnlineStore\Online-Store\bin\roslyn\vbc.exe.config
+D:\OnlineStore\Online-Store\bin\roslyn\vbc.rsp
+D:\OnlineStore\Online-Store\bin\roslyn\VBCSCompiler.exe
+D:\OnlineStore\Online-Store\bin\roslyn\VBCSCompiler.exe.config
+D:\OnlineStore\Online-Store\bin\EntityFramework.dll
+D:\OnlineStore\Online-Store\bin\EntityFramework.SqlServer.dll
+D:\OnlineStore\Online-Store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\OnlineStore\Online-Store\bin\EntityFramework.xml
+D:\OnlineStore\Online-Store\bin\EntityFramework.SqlServer.xml
+D:\OnlineStore\Online-Store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\OnlineStore\Online-Store\obj\Debug\Online-Store.csprojAssemblyReference.cache
+D:\OnlineStore\Online-Store\obj\Debug\Online-Store.csproj.CoreCompileInputs.cache
+D:\OnlineStore\Online-Store\obj\Debug\Online-Store.csproj.CopyComplete
+D:\OnlineStore\Online-Store\obj\Debug\Online-Store.dll
+D:\OnlineStore\Online-Store\obj\Debug\Online-Store.pdb
+D:\OnlineStore\Online-Store\bin\AjaxControlToolkit.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\Online-Store.dll.config
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\Online-Store.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\Online-Store.pdb
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\csc.exe
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\csc.exe.config
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\csc.rsp
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\csi.exe
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\csi.exe.config
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\csi.rsp
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.AppContext.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Console.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.IO.Compression.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.IO.Pipes.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Security.Claims.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.ValueTuple.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\vbc.exe
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\vbc.exe.config
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\vbc.rsp
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\VBCSCompiler.exe
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\AjaxControlToolkit.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\EntityFramework.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\EntityFramework.SqlServer.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\EntityFramework.xml
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\EntityFramework.SqlServer.xml
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\obj\Debug\Online-Store.csprojAssemblyReference.cache
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\obj\Debug\Online-Store.csproj.CoreCompileInputs.cache
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\obj\Debug\Online-Store.csproj.CopyComplete
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\obj\Debug\Online-Store.dll
+C:\Users\PINAR\Downloads\Online-Store-master\Online-Store\obj\Debug\Online-Store.pdb

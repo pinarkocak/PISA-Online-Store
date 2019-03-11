@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PISAOnlineStoreModelStoreContainer" CdmEntityContainer="PISAOnlineStoreEntities1">
+    <EntitySetMapping Name="TblBook">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblBook">
+        <MappingFragment StoreEntitySet="TblBook">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="Isbn" ColumnName="Isbn" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Publisher" ColumnName="Publisher" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Totalamount" ColumnName="Totalamount" />
+          <ScalarProperty Name="Point" ColumnName="Point" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblHobby">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblHobby">
+        <MappingFragment StoreEntitySet="TblHobby">
+          <ScalarProperty Name="HobbyId" ColumnName="HobbyId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Totalamount" ColumnName="Totalamount" />
+          <ScalarProperty Name="Point" ColumnName="Point" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblMagazine">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblMagazine">
+        <MappingFragment StoreEntitySet="TblMagazine">
+          <ScalarProperty Name="MagazineId" ColumnName="MagazineId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Totalamount" ColumnName="Totalamount" />
+          <ScalarProperty Name="Point" ColumnName="Point" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblMovie">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblMovie">
+        <MappingFragment StoreEntitySet="TblMovie">
+          <ScalarProperty Name="MovieId" ColumnName="MovieId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Publisher" ColumnName="Publisher" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Totalamount" ColumnName="Totalamount" />
+          <ScalarProperty Name="Point" ColumnName="Point" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblMusic">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblMusic">
+        <MappingFragment StoreEntitySet="TblMusic">
+          <ScalarProperty Name="MusicId" ColumnName="MusicId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Singer" ColumnName="Singer" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Totalamount" ColumnName="Totalamount" />
+          <ScalarProperty Name="Point" ColumnName="Point" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblPerson">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblPerson">
+        <MappingFragment StoreEntitySet="TblPerson">
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="TotalPoint" ColumnName="TotalPoint" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

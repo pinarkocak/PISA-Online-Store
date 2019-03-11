@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PISAOnlineStoreModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TblBook">
+    <Key>
+      <PropertyRef Name="BookId" />
+    </Key>
+    <Property Name="BookId" Type="int" Nullable="false" />
+    <Property Name="Isbn" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Author" Type="nvarchar" MaxLength="50" />
+    <Property Name="Publisher" Type="nvarchar" MaxLength="50" />
+    <Property Name="Page" Type="int" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Stock" Type="int" />
+    <Property Name="Image" Type="image" />
+    <Property Name="Totalamount" Type="int" />
+    <Property Name="Point" Type="float" />
+  </EntityType>
+  <EntityType Name="TblHobby">
+    <Key>
+      <PropertyRef Name="HobbyId" />
+    </Key>
+    <Property Name="HobbyId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Stock" Type="int" />
+    <Property Name="Image" Type="image" />
+    <Property Name="Totalamount" Type="int" />
+    <Property Name="Point" Type="float" />
+  </EntityType>
+  <EntityType Name="TblMagazine">
+    <Key>
+      <PropertyRef Name="MagazineId" />
+    </Key>
+    <Property Name="MagazineId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Stock" Type="int" />
+    <Property Name="Image" Type="image" />
+    <Property Name="Totalamount" Type="int" />
+    <Property Name="Point" Type="float" />
+  </EntityType>
+  <EntityType Name="TblMovie">
+    <Key>
+      <PropertyRef Name="MovieId" />
+    </Key>
+    <Property Name="MovieId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Author" Type="nvarchar" MaxLength="50" />
+    <Property Name="Publisher" Type="nvarchar" MaxLength="50" />
+    <Property Name="Page" Type="int" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Stock" Type="int" />
+    <Property Name="Image" Type="image" />
+    <Property Name="Totalamount" Type="int" />
+    <Property Name="Point" Type="float" />
+  </EntityType>
+  <EntityType Name="TblMusic">
+    <Key>
+      <PropertyRef Name="MusicId" />
+    </Key>
+    <Property Name="MusicId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Singer" Type="nvarchar" MaxLength="50" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Stock" Type="int" />
+    <Property Name="Image" Type="image" />
+    <Property Name="Totalamount" Type="int" />
+    <Property Name="Point" Type="float" />
+  </EntityType>
+  <EntityType Name="TblPerson">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Surname" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="UserName" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Password" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Address" Type="nchar" MaxLength="10" />
+    <Property Name="Mail" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="UserType" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="CardNumber" Type="nchar" MaxLength="10" />
+    <Property Name="TotalPoint" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="PISAOnlineStoreModelStoreContainer">
+    <EntitySet Name="TblBook" EntityType="Self.TblBook" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblHobby" EntityType="Self.TblHobby" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblMagazine" EntityType="Self.TblMagazine" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblMovie" EntityType="Self.TblMovie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblMusic" EntityType="Self.TblMusic" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblPerson" EntityType="Self.TblPerson" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
