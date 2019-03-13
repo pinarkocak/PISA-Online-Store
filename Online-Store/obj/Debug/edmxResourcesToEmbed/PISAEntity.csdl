@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PISAOnlineStoreModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TblBook">
+    <Key>
+      <PropertyRef Name="BookId" />
+    </Key>
+    <Property Name="BookId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISBN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="BookName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BookPublisher" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BookAuthor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BookPage" Type="Int32" />
+    <Property Name="BookPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="BookStock" Type="Int32" />
+    <Property Name="BookImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="BookPoint" Type="Int32" />
+    <Property Name="BookAmount" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TblHobby">
+    <Key>
+      <PropertyRef Name="HobbyId" />
+    </Key>
+    <Property Name="HobbyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HobbyName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HobbyType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HobbyPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="HobbyStock" Type="Int32" />
+    <Property Name="HobbyImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="HobbyPoint" Type="Int32" />
+    <Property Name="HobbyAmount" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TblMagazine">
+    <Key>
+      <PropertyRef Name="MagazineId" />
+    </Key>
+    <Property Name="MagazineId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MagazineName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MagazineType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MagazinePrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MagazineStock" Type="Int32" />
+    <Property Name="MagazineImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="MagazinePoint" Type="Int32" />
+    <Property Name="MagazineAmount" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TblMovie">
+    <Key>
+      <PropertyRef Name="MovieId" />
+    </Key>
+    <Property Name="MovieId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MovieName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MovieDirector" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MovieYear" Type="Int32" />
+    <Property Name="MovieGenre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MovieRuntime" Type="Double" />
+    <Property Name="MoviePrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MovieStock" Type="Int32" />
+    <Property Name="MovieImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="MoviePoint" Type="Int32" />
+    <Property Name="MovieAmount" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TblMusic">
+    <Key>
+      <PropertyRef Name="MusicId" />
+    </Key>
+    <Property Name="MusicId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MusicName" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="MusicSinger" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MusicType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MusicPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="MusicStock" Type="Int32" />
+    <Property Name="MusicImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="MusicPoint" Type="Int32" />
+    <Property Name="MusicAmount" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TblPerson">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PersonName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PersonSurname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PersonUsername" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PersonPassword" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="PersonAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PersonMail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PersonType" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="PersonCardNumber" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PersonTotalPoint" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="PISAEntity" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TblBook" EntityType="Self.TblBook" />
+    <EntitySet Name="TblHobby" EntityType="Self.TblHobby" />
+    <EntitySet Name="TblMagazine" EntityType="Self.TblMagazine" />
+    <EntitySet Name="TblMovie" EntityType="Self.TblMovie" />
+    <EntitySet Name="TblMusic" EntityType="Self.TblMusic" />
+    <EntitySet Name="TblPerson" EntityType="Self.TblPerson" />
+  </EntityContainer>
+</Schema>

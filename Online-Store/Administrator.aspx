@@ -106,7 +106,7 @@
             </asp:Panel>
 
             <!-- Main Container -->
-                <ajaxToolkit:TabContainer ID="tbCont_BookOperation" runat="server" ActiveTabIndex="1" CssClass="tab_container">
+                <ajaxToolkit:TabContainer ID="tbCont_BookOperation" runat="server" ActiveTabIndex="2" CssClass="tab_container">
                     <ajaxToolkit:TabPanel ID="TabPanel1" runat="server" HeaderText="TabPanel_Book">
                         <HeaderTemplate>
                             BOOK
@@ -139,7 +139,7 @@
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_bookStock" runat="server" CssClass="label" Text="STOCK: "></asp:Label>
-                                <asp:TextBox ID="txt_bookStock" runat="server" CssClass="textbox" TextMode="Number" Width="363px" OnTextChanged="txt_bookStock_TextChanged"></asp:TextBox>
+                                <asp:TextBox ID="txt_bookStock" runat="server" CssClass="textbox" TextMode="Number" Width="363px" ></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_bookImage" runat="server" CssClass="label" Text="IMAGE: "></asp:Label>
@@ -147,7 +147,7 @@
                                 <asp:FileUpload ID="fl_upld_image" runat="server" style="margin-left: 17px" />
                                 <br />
                                 <br />
-                                <asp:Button ID="btn_addBook" runat="server" OnClick="btn_addBook_Click"  Text="ADD BOOK" CssClass="button" />
+                                <asp:Button ID="btn_insertBook" runat="server" OnClick="btn_insertBook_Click"  Text="ADD BOOK" CssClass="button" />
                             </asp:Panel>
                             <asp:Panel ID="pnl_DeleteBook" runat="server" CssClass="panel_delete">
                                 <br />
@@ -173,31 +173,31 @@
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_bookname0" runat="server" CssClass="label" Text="NAME: "></asp:Label>
-                                <asp:TextBox ID="txt_bookName0" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_bookNameupdate" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_bookIsbn0" runat="server" CssClass="label" Text="ISBN: "></asp:Label>
-                                <asp:TextBox ID="txt_bookIsbn0" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_bookIsbnupdate" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_bookAuthor0" runat="server" CssClass="label" Text="AUTHOR: "></asp:Label>
-                                <asp:TextBox ID="txt_bookAuthor0" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_bookAuthorupdate" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_bookPublisher0" runat="server" CssClass="label" Text="PUBLISHER: "></asp:Label>
-                                <asp:TextBox ID="txt_bookPublisher0" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_bookPublisherupdate" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_bookPage0" runat="server" CssClass="label" Text="PAGE: "></asp:Label>
-                                <asp:TextBox ID="txt_bookPage0" runat="server" CssClass="textbox" TextMode="Number" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_bookPageupdate" runat="server" CssClass="textbox" TextMode="Number" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_bookPrice0" runat="server" CssClass="label" Text="PRICE: "></asp:Label>
-                                <asp:TextBox ID="txt_bookPrice0" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_bookPriceupdate" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_bookStock0" runat="server" CssClass="label" Text="STOCK: "></asp:Label>
-                                <asp:TextBox ID="txt_bookStock0" runat="server" CssClass="textbox" TextMode="Number" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_bookStockupdate" runat="server" CssClass="textbox" TextMode="Number" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_bookImage0" runat="server" CssClass="label" Text="IMAGE: "></asp:Label>
@@ -205,7 +205,7 @@
                                 <asp:FileUpload ID="fl_upld_imageforUpdate" runat="server" style="margin-left: 17px" />
                                 <br />
                                 <br />
-                                <asp:Button ID="btn_addBook0" runat="server"  OnClick="btn_addBook_Click"  Text="UPDATE BOOK" CssClass="button" />
+                                <asp:Button ID="btn_updateBook" runat="server"  OnClick="btn_updateBook_Click"  Text="UPDATE BOOK" CssClass="button" Visible="False" />
                             </asp:Panel>
                         </ContentTemplate>
                     </ajaxToolkit:TabPanel>
@@ -241,7 +241,7 @@
                                 <asp:FileUpload ID="FileUpload1" runat="server" style="margin-left: 17px" />
                                 <br />
                                 <br />
-                                <asp:Button ID="btn_insertmusic" runat="server" OnClick="btn_addBook_Click"  Text="ADD MUSIC" CssClass="button" />
+                                <asp:Button ID="btn_insertmusic" runat="server" Text="ADD MUSIC" CssClass="button" />
                             </asp:Panel>
                             <asp:Panel ID="Panel2" runat="server" CssClass="panel_delete">
                                 <br />
@@ -327,7 +327,7 @@
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_stock" runat="server" CssClass="label" Text="STOCK: "></asp:Label>
-                                <asp:TextBox ID="txt_stock" runat="server" CssClass="textbox" TextMode="Number" Width="363px" OnTextChanged="txt_bookStock_TextChanged"></asp:TextBox>
+                                <asp:TextBox ID="txt_stock" runat="server" CssClass="textbox" TextMode="Number" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_movieimage" runat="server" CssClass="label" Text="IMAGE: "></asp:Label>

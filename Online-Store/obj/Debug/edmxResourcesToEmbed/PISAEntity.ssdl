@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PISAOnlineStoreModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TblBook">
+    <Key>
+      <PropertyRef Name="BookId" />
+    </Key>
+    <Property Name="BookId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ISBN" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="BookName" Type="nvarchar" MaxLength="50" />
+    <Property Name="BookPublisher" Type="nvarchar" MaxLength="50" />
+    <Property Name="BookAuthor" Type="nvarchar" MaxLength="50" />
+    <Property Name="BookPage" Type="int" />
+    <Property Name="BookPrice" Type="money" />
+    <Property Name="BookStock" Type="int" />
+    <Property Name="BookImage" Type="image" />
+    <Property Name="BookPoint" Type="int" />
+    <Property Name="BookAmount" Type="int" />
+  </EntityType>
+  <EntityType Name="TblHobby">
+    <Key>
+      <PropertyRef Name="HobbyId" />
+    </Key>
+    <Property Name="HobbyId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HobbyName" Type="nvarchar" MaxLength="50" />
+    <Property Name="HobbyType" Type="nvarchar" MaxLength="50" />
+    <Property Name="HobbyPrice" Type="money" />
+    <Property Name="HobbyStock" Type="int" />
+    <Property Name="HobbyImage" Type="image" />
+    <Property Name="HobbyPoint" Type="int" />
+    <Property Name="HobbyAmount" Type="int" />
+  </EntityType>
+  <EntityType Name="TblMagazine">
+    <Key>
+      <PropertyRef Name="MagazineId" />
+    </Key>
+    <Property Name="MagazineId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MagazineName" Type="nvarchar" MaxLength="50" />
+    <Property Name="MagazineType" Type="nvarchar" MaxLength="50" />
+    <Property Name="MagazinePrice" Type="money" />
+    <Property Name="MagazineStock" Type="int" />
+    <Property Name="MagazineImage" Type="image" />
+    <Property Name="MagazinePoint" Type="int" />
+    <Property Name="MagazineAmount" Type="int" />
+  </EntityType>
+  <EntityType Name="TblMovie">
+    <Key>
+      <PropertyRef Name="MovieId" />
+    </Key>
+    <Property Name="MovieId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MovieName" Type="nvarchar" MaxLength="50" />
+    <Property Name="MovieDirector" Type="nvarchar" MaxLength="50" />
+    <Property Name="MovieYear" Type="int" />
+    <Property Name="MovieGenre" Type="nvarchar" MaxLength="50" />
+    <Property Name="MovieRuntime" Type="float" />
+    <Property Name="MoviePrice" Type="money" />
+    <Property Name="MovieStock" Type="int" />
+    <Property Name="MovieImage" Type="image" />
+    <Property Name="MoviePoint" Type="int" />
+    <Property Name="MovieAmount" Type="int" />
+  </EntityType>
+  <EntityType Name="TblMusic">
+    <Key>
+      <PropertyRef Name="MusicId" />
+    </Key>
+    <Property Name="MusicId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MusicName" Type="nchar" MaxLength="10" />
+    <Property Name="MusicSinger" Type="nvarchar" MaxLength="50" />
+    <Property Name="MusicType" Type="nvarchar" MaxLength="50" />
+    <Property Name="MusicPrice" Type="money" />
+    <Property Name="MusicStock" Type="int" />
+    <Property Name="MusicImage" Type="image" />
+    <Property Name="MusicPoint" Type="int" />
+    <Property Name="MusicAmount" Type="int" />
+  </EntityType>
+  <EntityType Name="TblPerson">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PersonName" Type="nvarchar" MaxLength="50" />
+    <Property Name="PersonSurname" Type="nvarchar" MaxLength="50" />
+    <Property Name="PersonUsername" Type="nvarchar" MaxLength="50" />
+    <Property Name="PersonPassword" Type="nchar" MaxLength="10" />
+    <Property Name="PersonAddress" Type="nvarchar" MaxLength="50" />
+    <Property Name="PersonMail" Type="nvarchar" MaxLength="50" />
+    <Property Name="PersonType" Type="nchar" MaxLength="10" />
+    <Property Name="PersonCardNumber" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="PersonTotalPoint" Type="int" />
+  </EntityType>
+  <EntityContainer Name="PISAOnlineStoreModelStoreContainer">
+    <EntitySet Name="TblBook" EntityType="Self.TblBook" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblHobby" EntityType="Self.TblHobby" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblMagazine" EntityType="Self.TblMagazine" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblMovie" EntityType="Self.TblMovie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblMusic" EntityType="Self.TblMusic" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblPerson" EntityType="Self.TblPerson" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

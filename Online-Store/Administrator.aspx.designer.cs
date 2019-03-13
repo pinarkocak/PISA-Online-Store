@@ -229,13 +229,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.FileUpload fl_upld_image;
         
         /// <summary>
-        /// btn_addBook control.
+        /// btn_insertBook control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_addBook;
+        protected global::System.Web.UI.WebControls.Button btn_insertBook;
         
         /// <summary>
         /// pnl_DeleteBook control.
@@ -319,13 +319,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_bookname0;
         
         /// <summary>
-        /// txt_bookName0 control.
+        /// txt_bookNameupdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_bookName0;
+        protected global::System.Web.UI.WebControls.TextBox txt_bookNameupdate;
         
         /// <summary>
         /// lbl_bookIsbn0 control.
@@ -337,13 +337,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_bookIsbn0;
         
         /// <summary>
-        /// txt_bookIsbn0 control.
+        /// txt_bookIsbnupdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_bookIsbn0;
+        protected global::System.Web.UI.WebControls.TextBox txt_bookIsbnupdate;
         
         /// <summary>
         /// lbl_bookAuthor0 control.
@@ -355,13 +355,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_bookAuthor0;
         
         /// <summary>
-        /// txt_bookAuthor0 control.
+        /// txt_bookAuthorupdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_bookAuthor0;
+        protected global::System.Web.UI.WebControls.TextBox txt_bookAuthorupdate;
         
         /// <summary>
         /// lbl_bookPublisher0 control.
@@ -373,13 +373,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_bookPublisher0;
         
         /// <summary>
-        /// txt_bookPublisher0 control.
+        /// txt_bookPublisherupdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_bookPublisher0;
+        protected global::System.Web.UI.WebControls.TextBox txt_bookPublisherupdate;
         
         /// <summary>
         /// lbl_bookPage0 control.
@@ -391,13 +391,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_bookPage0;
         
         /// <summary>
-        /// txt_bookPage0 control.
+        /// txt_bookPageupdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_bookPage0;
+        protected global::System.Web.UI.WebControls.TextBox txt_bookPageupdate;
         
         /// <summary>
         /// lbl_bookPrice0 control.
@@ -409,13 +409,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_bookPrice0;
         
         /// <summary>
-        /// txt_bookPrice0 control.
+        /// txt_bookPriceupdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_bookPrice0;
+        protected global::System.Web.UI.WebControls.TextBox txt_bookPriceupdate;
         
         /// <summary>
         /// lbl_bookStock0 control.
@@ -427,13 +427,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_bookStock0;
         
         /// <summary>
-        /// txt_bookStock0 control.
+        /// txt_bookStockupdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_bookStock0;
+        protected global::System.Web.UI.WebControls.TextBox txt_bookStockupdate;
         
         /// <summary>
         /// lbl_bookImage0 control.
@@ -454,13 +454,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.FileUpload fl_upld_imageforUpdate;
         
         /// <summary>
-        /// btn_addBook0 control.
+        /// btn_updateBook control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_addBook0;
+        protected global::System.Web.UI.WebControls.Button btn_updateBook;
         
         /// <summary>
         /// TabPanel2 control.

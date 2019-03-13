@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PISAOnlineStoreModelStoreContainer" CdmEntityContainer="PISAEntity">
+    <EntitySetMapping Name="TblBook">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblBook">
+        <MappingFragment StoreEntitySet="TblBook">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="BookPublisher" ColumnName="BookPublisher" />
+          <ScalarProperty Name="BookAuthor" ColumnName="BookAuthor" />
+          <ScalarProperty Name="BookPage" ColumnName="BookPage" />
+          <ScalarProperty Name="BookPrice" ColumnName="BookPrice" />
+          <ScalarProperty Name="BookStock" ColumnName="BookStock" />
+          <ScalarProperty Name="BookImage" ColumnName="BookImage" />
+          <ScalarProperty Name="BookPoint" ColumnName="BookPoint" />
+          <ScalarProperty Name="BookAmount" ColumnName="BookAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblHobby">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblHobby">
+        <MappingFragment StoreEntitySet="TblHobby">
+          <ScalarProperty Name="HobbyId" ColumnName="HobbyId" />
+          <ScalarProperty Name="HobbyName" ColumnName="HobbyName" />
+          <ScalarProperty Name="HobbyType" ColumnName="HobbyType" />
+          <ScalarProperty Name="HobbyPrice" ColumnName="HobbyPrice" />
+          <ScalarProperty Name="HobbyStock" ColumnName="HobbyStock" />
+          <ScalarProperty Name="HobbyImage" ColumnName="HobbyImage" />
+          <ScalarProperty Name="HobbyPoint" ColumnName="HobbyPoint" />
+          <ScalarProperty Name="HobbyAmount" ColumnName="HobbyAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblMagazine">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblMagazine">
+        <MappingFragment StoreEntitySet="TblMagazine">
+          <ScalarProperty Name="MagazineId" ColumnName="MagazineId" />
+          <ScalarProperty Name="MagazineName" ColumnName="MagazineName" />
+          <ScalarProperty Name="MagazineType" ColumnName="MagazineType" />
+          <ScalarProperty Name="MagazinePrice" ColumnName="MagazinePrice" />
+          <ScalarProperty Name="MagazineStock" ColumnName="MagazineStock" />
+          <ScalarProperty Name="MagazineImage" ColumnName="MagazineImage" />
+          <ScalarProperty Name="MagazinePoint" ColumnName="MagazinePoint" />
+          <ScalarProperty Name="MagazineAmount" ColumnName="MagazineAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblMovie">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblMovie">
+        <MappingFragment StoreEntitySet="TblMovie">
+          <ScalarProperty Name="MovieId" ColumnName="MovieId" />
+          <ScalarProperty Name="MovieName" ColumnName="MovieName" />
+          <ScalarProperty Name="MovieDirector" ColumnName="MovieDirector" />
+          <ScalarProperty Name="MovieYear" ColumnName="MovieYear" />
+          <ScalarProperty Name="MovieGenre" ColumnName="MovieGenre" />
+          <ScalarProperty Name="MovieRuntime" ColumnName="MovieRuntime" />
+          <ScalarProperty Name="MoviePrice" ColumnName="MoviePrice" />
+          <ScalarProperty Name="MovieStock" ColumnName="MovieStock" />
+          <ScalarProperty Name="MovieImage" ColumnName="MovieImage" />
+          <ScalarProperty Name="MoviePoint" ColumnName="MoviePoint" />
+          <ScalarProperty Name="MovieAmount" ColumnName="MovieAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblMusic">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblMusic">
+        <MappingFragment StoreEntitySet="TblMusic">
+          <ScalarProperty Name="MusicId" ColumnName="MusicId" />
+          <ScalarProperty Name="MusicName" ColumnName="MusicName" />
+          <ScalarProperty Name="MusicSinger" ColumnName="MusicSinger" />
+          <ScalarProperty Name="MusicType" ColumnName="MusicType" />
+          <ScalarProperty Name="MusicPrice" ColumnName="MusicPrice" />
+          <ScalarProperty Name="MusicStock" ColumnName="MusicStock" />
+          <ScalarProperty Name="MusicImage" ColumnName="MusicImage" />
+          <ScalarProperty Name="MusicPoint" ColumnName="MusicPoint" />
+          <ScalarProperty Name="MusicAmount" ColumnName="MusicAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblPerson">
+      <EntityTypeMapping TypeName="PISAOnlineStoreModel.TblPerson">
+        <MappingFragment StoreEntitySet="TblPerson">
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="PersonName" ColumnName="PersonName" />
+          <ScalarProperty Name="PersonSurname" ColumnName="PersonSurname" />
+          <ScalarProperty Name="PersonUsername" ColumnName="PersonUsername" />
+          <ScalarProperty Name="PersonPassword" ColumnName="PersonPassword" />
+          <ScalarProperty Name="PersonAddress" ColumnName="PersonAddress" />
+          <ScalarProperty Name="PersonMail" ColumnName="PersonMail" />
+          <ScalarProperty Name="PersonType" ColumnName="PersonType" />
+          <ScalarProperty Name="PersonCardNumber" ColumnName="PersonCardNumber" />
+          <ScalarProperty Name="PersonTotalPoint" ColumnName="PersonTotalPoint" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
