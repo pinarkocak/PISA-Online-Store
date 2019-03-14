@@ -63,7 +63,7 @@
         }
         .panel_insert {
             float: left;
-            margin-left: 5%;
+            margin-left: 0%;
             margin-top: 20px;
             height: 720px;
             width: 390px;
@@ -307,35 +307,35 @@
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_director" runat="server" CssClass="label" Text="DIRECTOR: "></asp:Label>
-                                <asp:TextBox ID="txt_director" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_moviedirector" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />                              
                                 <asp:Label ID="lbl_year" runat="server" CssClass="label" Text="YEAR: "></asp:Label>
-                                <asp:TextBox ID="txt_year" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_movieyear" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_genre" runat="server" CssClass="label" Text="GENRE: "></asp:Label>
-                                <asp:TextBox ID="txt_genre" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_moviegenre" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_runtime" runat="server" CssClass="label" Text="RUNTIME: "></asp:Label>
-                                <asp:TextBox ID="txt_runtime" runat="server" CssClass="textbox" TextMode="Number" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_movieruntime" runat="server" CssClass="textbox" TextMode="Number" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_price" runat="server" CssClass="label" Text="PRICE: "></asp:Label>
-                                <asp:TextBox ID="txt_price" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_movieprice" runat="server" CssClass="textbox" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_stock" runat="server" CssClass="label" Text="STOCK: "></asp:Label>
-                                <asp:TextBox ID="txt_stock" runat="server" CssClass="textbox" TextMode="Number" Width="363px"></asp:TextBox>
+                                <asp:TextBox ID="txt_moviestock" runat="server" CssClass="textbox" TextMode="Number" Width="363px"></asp:TextBox>
                                 <br />
                                 <br />
                                 <asp:Label ID="lbl_movieimage" runat="server" CssClass="label" Text="IMAGE: "></asp:Label>
                                 <br />
-                                <asp:FileUpload ID="FileUpload3" runat="server" style="margin-left: 17px" />
+                                <asp:FileUpload ID="flupld_movieinsert" runat="server" style="margin-left: 17px" />
                                 <br />
                                 <br />
-                                <asp:Button ID="btn_insertmovie" runat="server"  Text="ADD MOVIE" CssClass="button" />
+                                <asp:Button ID="btn_insertmovie" runat="server"  Text="ADD MOVIE" CssClass="button" OnClick="btn_insertmovie_Click" />
                             </asp:Panel>
                             <asp:Panel ID="pnl_deletemovie" runat="server" CssClass="panel_delete">
                                 <br />

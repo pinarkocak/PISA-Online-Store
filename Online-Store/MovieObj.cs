@@ -12,6 +12,21 @@ namespace Online_Store
         private string genre;
         private double runtime;
 
+        private static Object _object = new Object();
+        private static MovieObj mymovie;
+        private MovieObj() { }
+        public static MovieObj GetMovie
+        {
+            get
+            {
+                lock (_object)
+                {
+
+                    return mymovie ?? new MovieObj();
+                }
+            }
+        }
+
         public string Director { get => director; set => director = value; }
         public int Year { get => year; set => year = value; }
         public string Genre { get => genre; set => genre = value; }

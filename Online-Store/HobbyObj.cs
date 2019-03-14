@@ -10,6 +10,21 @@ namespace Online_Store
     {
         private string type;
 
+        private static Object _object = new Object();
+        private static HobbyObj myhobby;
+        private HobbyObj() { }
+        public static HobbyObj GetHobby
+        {
+            get
+            {
+                lock (_object)
+                {
+
+                    return myhobby ?? new HobbyObj();
+                }
+            }
+        }
+
         public string Type { get => type; set => type = value; }
 
         public override void delete(int id)

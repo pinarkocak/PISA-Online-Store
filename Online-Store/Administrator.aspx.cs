@@ -10,6 +10,10 @@ namespace Online_Store
     public partial class Administrator : System.Web.UI.Page
     {
         BookObj my_book = BookObj.GetBook;
+        MovieObj my_movie = MovieObj.GetMovie;
+        MagazineObj my_magazine = MagazineObj.GetMagazine;
+        HobbyObj my_hobby = HobbyObj.GetHobby;
+        MusicObj my_music = MusicObj.GetMusic;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -90,6 +94,26 @@ namespace Online_Store
             my_book.Amount = 7;
             my_book.Image = img;
             my_book.insert();
+        }
+
+        protected void btn_insertmovie_Click(object sender, EventArgs e)
+        {
+            flupld_movieinsert.SaveAs(Server.MapPath("img/movieImage/" + flupld_movieinsert.FileName));
+            int length = flupld_movieinsert.PostedFile.ContentLength;
+            byte[] img = new byte[length];
+            flupld_movieinsert.PostedFile.InputStream.Read(img, 0, length);
+            my_movie.Name = txt_moviename.Text.ToString();
+            my_movie.Director = txt_moviedirector.Text.ToString();
+            my_movie.Genre = txt_moviegenre.Text.ToString();
+            my_movie.Year = Convert.ToInt32(txt_movieyear.Text);
+            my_movie.Runtime = Convert.ToDouble(txt_movieruntime.Text);
+            my_movie.Price = Convert.ToDecimal(txt_movieprice.Text);
+            my_movie.Stock = Convert.ToInt32(txt_moviestock.Text);
+            my_movie.Point = 2;
+            my_movie.Amount = 4;
+            my_movie.Image = img;
+            my_movie.insert();
+
         }
     }
 }

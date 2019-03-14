@@ -9,6 +9,21 @@ namespace Online_Store
     {
         private string type;
 
+        private static Object _object = new Object();
+        private static MagazineObj mymagazine;
+        private MagazineObj() { }
+        public static MagazineObj GetMagazine
+        {
+            get
+            {
+                lock (_object)
+                {
+
+                    return mymagazine ?? new MagazineObj();
+                }
+            }
+        }
+
         public string Type { get => type; set => type = value; }
 
         public override void delete(int id)

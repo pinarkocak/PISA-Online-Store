@@ -832,13 +832,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_director;
         
         /// <summary>
-        /// txt_director control.
+        /// txt_moviedirector control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_director;
+        protected global::System.Web.UI.WebControls.TextBox txt_moviedirector;
         
         /// <summary>
         /// lbl_year control.
@@ -850,13 +850,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_year;
         
         /// <summary>
-        /// txt_year control.
+        /// txt_movieyear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_year;
+        protected global::System.Web.UI.WebControls.TextBox txt_movieyear;
         
         /// <summary>
         /// lbl_genre control.
@@ -868,13 +868,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_genre;
         
         /// <summary>
-        /// txt_genre control.
+        /// txt_moviegenre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_genre;
+        protected global::System.Web.UI.WebControls.TextBox txt_moviegenre;
         
         /// <summary>
         /// lbl_runtime control.
@@ -886,13 +886,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_runtime;
         
         /// <summary>
-        /// txt_runtime control.
+        /// txt_movieruntime control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_runtime;
+        protected global::System.Web.UI.WebControls.TextBox txt_movieruntime;
         
         /// <summary>
         /// lbl_price control.
@@ -904,13 +904,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_price;
         
         /// <summary>
-        /// txt_price control.
+        /// txt_movieprice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_price;
+        protected global::System.Web.UI.WebControls.TextBox txt_movieprice;
         
         /// <summary>
         /// lbl_stock control.
@@ -922,13 +922,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_stock;
         
         /// <summary>
-        /// txt_stock control.
+        /// txt_moviestock control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_stock;
+        protected global::System.Web.UI.WebControls.TextBox txt_moviestock;
         
         /// <summary>
         /// lbl_movieimage control.
@@ -940,13 +940,13 @@ namespace Online_Store {
         protected global::System.Web.UI.WebControls.Label lbl_movieimage;
         
         /// <summary>
-        /// FileUpload3 control.
+        /// flupld_movieinsert control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload3;
+        protected global::System.Web.UI.WebControls.FileUpload flupld_movieinsert;
         
         /// <summary>
         /// btn_insertmovie control.

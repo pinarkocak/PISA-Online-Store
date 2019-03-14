@@ -10,6 +10,21 @@ namespace Online_Store
         private string type;
         private string singer;
 
+        private static Object _object = new Object();
+        private static MusicObj mymUSİC;
+        private MusicObj() { }
+        public static MusicObj GetMusic
+        {
+            get
+            {
+                lock (_object)
+                {
+
+                    return mymUSİC ?? new MusicObj();
+                }
+            }
+        }
+
         public string Type { get => type; set => type = value; }
         public string Singer { get => singer; set => singer = value; }
 
