@@ -33,6 +33,18 @@ namespace Online_Store
         }
         public void InsertUser()
         {
+            using (PISAEntity i_entity = new PISAEntity())
+            {
+                TblPerson tblperson = new TblPerson();
+                tblperson.PersonName = personName;
+                tblperson.PersonSurname = personSurname;
+                tblperson.PersonUsername = personUsername;
+                tblperson.PersonPassword = personPassword;
+                tblperson.PersonAddress = personAddress;
+                tblperson.PersonMail = personMail;
+                i_entity.TblPerson.Add(tblperson);
+                i_entity.SaveChanges();
+            }
 
         }
         public bool AdminControl()

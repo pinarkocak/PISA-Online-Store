@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Drawing;
+using System.IO;
 
 namespace Online_Store
 {
-    public class BookObj: Product
+    public class BookObj : Product
     {
         private string author;
         private decimal isbn;
@@ -56,8 +58,8 @@ namespace Online_Store
             using (PISAEntity d_entity = new PISAEntity())
             {
                 var deletebook = (from s in d_entity.TblBook
-                                   where s.BookId ==id
-                                   select s).FirstOrDefault();
+                                  where s.BookId == id
+                                  select s).FirstOrDefault();
                 d_entity.TblBook.Remove(deletebook);
                 d_entity.SaveChanges();
             }
@@ -104,11 +106,13 @@ namespace Online_Store
                         Amount = Convert.ToInt32(information.BookAmount);
                         return true;
                     }
-                    
+                    //MemoryStream ms = new MemoryStream(image);
+                    //return System.Drawing.Image.FromStream(ms);
                 }
 
             };
             return false;
         }
+
     }
 }

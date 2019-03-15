@@ -99,7 +99,7 @@
                    <asp:TextBox ID="sgn_txt_confirm_password" runat="server" CssClass="textbox" Width="500px"></asp:TextBox>
                    <br />
                    <br />
-                   <asp:Button ID="btn_signup" runat="server" Text="Sign Up" CssClass="button" Width="500px" BackColor="#0066cc"/>
+                   <asp:Button ID="btn_signup" runat="server" Text="Sign Up" CssClass="button" Width="500px" BackColor="#0066cc" OnClick="btn_signup_Click1"/>
                    <br />
                    <br />
             </div>
