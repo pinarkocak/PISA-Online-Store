@@ -108,7 +108,7 @@
                 <asp:ImageButton ID="img_profile" runat="server" src="https://cdn1.iconfinder.com/data/icons/freeline/32/account_friend_human_man_member_person_profile_user_users-512.png" CssClass="img_button" />                
             </asp:Panel>
         </div>
-        <div class="main_container">
+        <div class="main_container" runat="server" id="Maindiv">
             <div class="card">                
                 <asp:Image src="" ID="Image1" runat="server" Height="147px" CssClass="image" />
                     <asp:Label ID="Label1" runat="server"/>
